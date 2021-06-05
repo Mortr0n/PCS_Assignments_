@@ -73,7 +73,7 @@
                 <td>table data</td>
                 <td>table data</td>
                 <td>table data</td>
-                <td>table data</td>
+                <td><a href="http://www.google.com">Google</a></td>
             </tr>
             <tr>
                 <td>table data</td>
@@ -84,4 +84,46 @@
         </tbody>
     </table>
 
+    <h3>Parts of a Form</h3>
+    <label for="first_name">First Name:</label>
+    <input type="text" id="first_name" name="first_name">
+    <label for="last_name">Last Name:</label>
+    <input type="text" id="last_name" name="last_name">
+    <label for="email">Email:</label>
+    <input type="text" id="email" name="email">
+    <label for="password">Password:</label>
+    <input type="password" id="password" name="password">
+
+    
+    <label for="gender">
+        <h3>Gender Options</h3>
+    </label>
+    <select name="gender">
+        <option value="notselected">Not Yet Selected</option>
+        <option value="male">Male</option>
+        <option value="female">Female</option>
+        <option value="nonbinary">Non-Binary</option>
+        <option value="decline">None of your business</option>
+    </select>
+
+    <h3>Pick Your Favorite Color(s)</h3>
+
+    <label for="blue">Blue</label>
+    <input type="checkbox" id="blue" name="color" value="blue">
+    <label for="green">Green</label>
+    <input type="checkbox" id="green" name="color" value="green">
+    <label for="red">Red</label>
+    <input type="checkbox" id="red" name="color" value="red">
+    <label for="black">Black</label>
+    <input type="checkbox" id="black" name="color" value="black">
+    <label for="purple">Purple</label>
+    <input type="checkbox" id="purple" name="color" value="purple">
+    <label for="yellow">Yellow</label>
+    <input type="checkbox" id="yellow" name="color" value="yellow">
+
+    <h3>Tell us something good in this Text Area!</h3>
+    <textarea name="description"></textarea>
+
+    <h3>Submit Button</h3>
+    <input type="submit" value="Click Me to Submit">
 </html>
